@@ -1,0 +1,60 @@
+import 'package:magazine_n1/models/product.dart';
+
+List<Product> listOfProducts = [
+  Product(
+      photo: "assets/images/celular.jpg",
+      name: "Smartphone Samsung Galaxy A71, 128GB, Azul, 6GB RAM",
+      description: "Tela 6,7*, Câm. Quádrupla + Câm. Selfie 32MP",
+      price: "1.979,97",
+      time: 10,
+      portion: "212,90",
+      isFavorite: true),
+  Product(
+    photo: "assets/images/geladeira.jpg",
+    name: "Geladeira Brastemp, Frost Free Duplex Evox",
+    description: "375L, BRM45, HKANA",
+    price: "2.698,00",
+    time: 10,
+    portion: "269,80",
+  ),
+  Product(
+    photo: "assets/images/fritadeira.jpg",
+    name: "Fritadeira Elétrica sem Óleo/Air Fryer Nell Smart",
+    description: "Preta, 2,4l com timer",
+    price: "229,90",
+    time: 5,
+    portion: "45,98",
+  ),
+  Product(
+      photo: "assets/images/computador.jpg",
+      name: "PC Gamer Neologic Start NLI81426, Ryzen 3, 2200G 8GB",
+      description: "Radeon Vega 8 integrado + SSD 240GB",
+      price: "4.859,00",
+      time: 12,
+      portion: "404,92",
+      isFavorite: true),
+  Product(
+    photo: "assets/images/microfone.jpg",
+    name: "Microfone de Mesa Condensador para Celular, Computador e Notebook",
+    description: "Readshock",
+    price: "99,90",
+    time: 3,
+    portion: "33,30",
+  ),
+  Product(
+      photo: "assets/images/ventilador.jpg",
+      name: "Ventilador de Parede e Mesa Mondial, Maxi Power",
+      description: "NV-15-6P-FB, 30cm, 3 velocidades",
+      price: "89,90",
+      time: 2,
+      portion: "44,95",
+      isFavorite: true),
+  Product(
+    photo: "assets/images/drone.jpg",
+    name: "Drone Multilaser Eagle FPV",
+    description: "Câmera HD Flips 360",
+    price: "1.979,97",
+    time: 10,
+    portion: "212,90",
+  ),
+];
